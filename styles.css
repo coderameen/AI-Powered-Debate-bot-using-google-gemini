@@ -1,0 +1,32 @@
+.chat-row {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+.chat-bubble {
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: black;
+    word-wrap: break-word;
+    max-width: 70%;
+}
+.pro-bubble {
+    background-color: #e0ffe0;
+    align-self: flex-start;
+    margin-right: auto;
+    display: inline-block;
+    border-radius: 15px;
+}
+.con-bubble {
+    background-color: #ffe0e0;
+    align-self: flex-end;
+    margin-left: auto;
+    display: inline-block;
+    border-radius: 15px;
+}
+.avatar {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
